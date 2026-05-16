@@ -12,6 +12,10 @@ body{
     justify-content: center;
 }
 
+.shprompt {
+    color: white !important;
+}
+
 .container{
     display: flex;
     justify-content: center;

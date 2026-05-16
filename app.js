@@ -20,16 +20,19 @@ buts.forEach(but => {
     })
 })
 
-function play(element,animationName){
-    
+function StartPlay(element,animationName){
+    fetch("anim.json")
+    .then(res => res.json())
+    .then(data => {
+        const frames = data[animationName];
+        const interval = 100;
+
+        let i = 0;
+        setInterval(() => {
+            element.textContent = frames[i];
+            i = (i+1)%10;
+        }, interval);
+    })
 }
 
-let i = 0
-const frame = [
-    '',
-    '',
-    ''
-]
-setInterval(()=>{
-
-})
+const logoani = document.getElementById("logoani");
