@@ -1,0 +1,25 @@
+body{
+    background-color: black;
+}
+
+.ascii {
+    font-size: large;
+    color: white;
+    font-family: monospace;
+    white-space: pre;
+    line-height: 1.2;
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.but {
+    font-family: monospace;
+    color: white;
+    display: inline-block;
+    font-size: x-large;
+}
