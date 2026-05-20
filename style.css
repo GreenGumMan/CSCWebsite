@@ -3,17 +3,59 @@ body{
 }
 
 .ascii {
-    font-size: large;
+    font-size: small;
     color: white;
     font-family: monospace;
     white-space: pre;
     line-height: 1.2;
     display: flex;
     justify-content: center;
+    margin: 0;
+}
+
+.shbox{
+    width: 800px;
+    margin:0 auto;
+    text-align: left;
 }
 
 .shprompt {
-    color: white !important;
+    font-size: large;
+    color: rgb(0, 255, 0);
+    font-family: monospace;
+    height: 50;
+    margin: 0;
+}
+
+.shouput{
+    font-size: large;
+    color: rgb(255, 255, 255);
+    font-family: monospace;
+    display: block;
+    margin: 0;
+}
+
+.shinput-row{
+    font-size: large;
+    font-family: monospace;
+    display: flex;
+    align-items: baseline;
+}
+
+.shinputbox{
+    font-size: large;
+    color: rgb(255, 255, 255);
+    font-family: monospace;
+    background-color: black;
+    border: none;
+    outline: none;
+    height: 50;
+}
+
+.shinputbox::placeholder{
+    font-size: large;
+    color: rgb(142, 142, 142);
+    font-family: monospace;
 }
 
 .container{
@@ -26,4 +68,8 @@ body{
     color: white;
     display: inline-block;
     font-size: x-large;
+    text-align: center;
+    width: 150;
+    height: 45;
+    margin: 0;
 }
