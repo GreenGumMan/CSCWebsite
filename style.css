@@ -72,4 +72,18 @@ body{
     width: 150;
     height: 45;
     margin: 0;
+    text-decoration: none;
+}
+
+#mark{
+    margin: 0;
+    position:fixed;
+    right:24px;
+    bottom:24px;
+    color:white;
+}
+
+#dog{
+    color: white;
+    transform: rotate(90deg);
 }
