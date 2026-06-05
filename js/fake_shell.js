@@ -14,6 +14,8 @@ fetch("members.json")
         memberlist = data;
     })
 
+const shinput = document.getElementById("shinputbox");
+
 shinput.addEventListener("keydown",(e)=>{
     console.log(e.key)
     if(e.key == "Enter"){
